@@ -1,0 +1,206 @@
+{
+	"id": "c8ef63d5-a5f7-336c-0981-4de1b4cd13c3",
+	"name": "product",
+	"description": "",
+	"order": [
+		"d384aabc-0cce-815d-0884-95b9d29940fc",
+		"0fae499f-07c0-8ccc-5ac6-64ad3d47c590",
+		"e507ba9f-d93a-c0d0-a7db-60aff44bbdf9",
+		"9ee72334-c402-ef38-4f30-e160b16d4484",
+		"02ed5e16-5911-dee8-5800-1353be4445b7",
+		"5334fcc1-ec28-5677-9fe7-1ab1733a5d00"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1581794767171,
+	"owner": "1508997",
+	"public": false,
+	"requests": [
+		{
+			"id": "02ed5e16-5911-dee8-5800-1353be4445b7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9090/product/ear-phone",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c8ef63d5-a5f7-336c-0981-4de1b4cd13c3",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9090/product/ear-phone",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1581795915094,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "[{\n\t\"name\":\"x\",\n\t\"quantity\":8,\n\t\"price\":5000\n},{\n\t\"name\":\"y\",\n\t\"quantity\":8,\n\t\"price\":5000\n},{\n\t\"name\":\"z\",\n\t\"quantity\":8,\n\t\"price\":5000\n}]"
+		},
+		{
+			"id": "0fae499f-07c0-8ccc-5ac6-64ad3d47c590",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9090/addProducts",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c8ef63d5-a5f7-336c-0981-4de1b4cd13c3",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9090/addProducts",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1581795572588,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "[{\n\t\"name\":\"x\",\n\t\"quantity\":8,\n\t\"price\":5000\n},{\n\t\"name\":\"y\",\n\t\"quantity\":8,\n\t\"price\":5000\n},{\n\t\"name\":\"z\",\n\t\"quantity\":8,\n\t\"price\":5000\n}]"
+		},
+		{
+			"id": "5334fcc1-ec28-5677-9fe7-1ab1733a5d00",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9090/delete/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "c8ef63d5-a5f7-336c-0981-4de1b4cd13c3",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9090/delete/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1581796000570,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "[{\n\t\"name\":\"x\",\n\t\"quantity\":8,\n\t\"price\":5000\n},{\n\t\"name\":\"y\",\n\t\"quantity\":8,\n\t\"price\":5000\n},{\n\t\"name\":\"z\",\n\t\"quantity\":8,\n\t\"price\":5000\n}]"
+		},
+		{
+			"id": "9ee72334-c402-ef38-4f30-e160b16d4484",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9090/productById/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c8ef63d5-a5f7-336c-0981-4de1b4cd13c3",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9090/productById/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1581795863907,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "[{\n\t\"name\":\"x\",\n\t\"quantity\":8,\n\t\"price\":5000\n},{\n\t\"name\":\"y\",\n\t\"quantity\":8,\n\t\"price\":5000\n},{\n\t\"name\":\"z\",\n\t\"quantity\":8,\n\t\"price\":5000\n}]"
+		},
+		{
+			"id": "d384aabc-0cce-815d-0884-95b9d29940fc",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9090/addProduct",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c8ef63d5-a5f7-336c-0981-4de1b4cd13c3",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9090/addProduct",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1581795340550,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\":\"book\",\n\t\"quantity\":2,\n\t\"price\":999\n}"
+		},
+		{
+			"id": "e507ba9f-d93a-c0d0-a7db-60aff44bbdf9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9090/findAllProducts",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c8ef63d5-a5f7-336c-0981-4de1b4cd13c3",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9090/findAllProducts",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1581795697566,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "[{\n\t\"name\":\"x\",\n\t\"quantity\":8,\n\t\"price\":5000\n},{\n\t\"name\":\"y\",\n\t\"quantity\":8,\n\t\"price\":5000\n},{\n\t\"name\":\"z\",\n\t\"quantity\":8,\n\t\"price\":5000\n}]"
+		}
+	]
+}
